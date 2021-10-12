@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+*{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 header{
   background-color: #0e6181;
 
@@ -7,9 +11,10 @@ header{
 a{
   color: #FFFFFF;
   opacity: 0.7;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  /* font-family: "Open Sans", sans-serif; */
+  font-size: 18px;
   text-transform: capitalize;
+  text-decoration: none;
 }
 
 a:hover{
@@ -20,6 +25,11 @@ nav ul {
   display: flex;
   width: 100%;
   color: #FFFFFF;
+  list-style: none;
+  text-decoration: none;
+  text-align: left;
+  justify-content: space-between;
+   
   
 }
 
